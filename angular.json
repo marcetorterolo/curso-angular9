@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "curso-angular9"
+    }
+  },
+  "defaultProject": "curso-angular9",
+  "cli": {
+    "analytics": false
+  }
 }

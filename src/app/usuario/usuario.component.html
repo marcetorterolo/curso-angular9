@@ -1,8 +1,21 @@
-<p>Pruebas Marchelo</p>
-<div>
-   <label>Cuadro de texto: </label>
-   <input type="text" [(ngModel)]="name">
+<h2>Pruebas Marchelo</h2>
+<br>
+<div class="container">
+   <div class="row">
+      <div class="col-xs-6">
+         <label>Cuadro de texto: </label>
+      </div>
+      <div class="col-xs-6">
+         <input type="text" [(ngModel)]="name">
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-xs-6">
+         <label>Valor propiedad 'Name':</label>
+      </div>
+      <div class="col-xs-6">
+         <label> {{name}} </label>
+      </div>
+   </div>
 </div>
-<div>
-   <label>Valor propiedad 'Name': {{name}} </label>
-</div>
+

@@ -14,4 +14,10 @@
    (click)="onCreateServer()">Add Server</button>
 <!-- <p>{{serverCreationStatus}}</p> -->
 <p *ngIf="serverCreated">Server was created! Name is {{ serverName }}</p>
+<!-- Example use ngIfElse -->
+<!-- <p *ngIf="serverCreated; else noServer">Server was created! Name is {{ serverName }}</p>
+<ng-template #noServer>
+   <p>No server was created!</p>
+</ng-template> -->
+
 <app-server *ngFor="let server of servers"></app-server>

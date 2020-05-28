@@ -1,3 +1,6 @@
-.online {
+.online_text {
    color: white;
+}
+.offline_text {
+   color: yellow;
 }

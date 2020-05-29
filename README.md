@@ -1,4 +1,18 @@
-# Angular9 Course - 0. Basic Components
+# Angular9 Course - 0. Basics Components
+Introduction to angular.
+
+Handling of basic components, such as:
+- what is a 'component'?
+- string interpolation
+- property binding
+- event binding
+- two-way binding
+- ngIf, ngIfElse
+- use of styles dinamically
+- ngClass
+- ngFor
+
+___
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 

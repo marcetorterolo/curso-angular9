@@ -1,7 +1,5 @@
 # Angular9 Course - 0. Basics Components
-Introduction to angular.
-
-Handling of basic components, such as:
+Introduction to angular. Handling of basic components, such as:
 - what is a 'component'?
 - string interpolation
 - property binding
